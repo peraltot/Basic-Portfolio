@@ -1,20 +1,20 @@
 
 	
-	.ul {
+	ul {
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
 		overflow: hidden;
-		background-color: #333;
+		background-color: #ffffff;
 	}
 	
-	.li {
+	li {
 		float: left;
 	}
 	
-	.li a {
+	li a {
 		display: block;
-		color: white;
+		color: #4aaaa5;
 		text-align: center;
 		padding: 14px 16px;
 		text-decoration: none;
@@ -29,7 +29,7 @@
 	box-sizing: border-box;
 	border-style: #cccccc;
 	border: 20px;
-		text-align: left;
+	text-align: left;
 	font-family: times;
 	font-size: 24px;
 }
@@ -54,21 +54,31 @@ p {
 	}
 
 
-#col-me {
+#col-left {
 		float: left;
-		width: 50%;
-		height: 300px;
+		width: 30%;
+		height: 400px;
 		padding: 10px;
 		background: #636161;
 	}
 
-	#col-right {
-			float: right;
-			width: 50%;
-			height: 300px;
+#col-right {
+			float: left;
+			width: 30%;
+			height: 400px;
 			padding: 10px;
 			background: #636161;
 	}
+	
+#col-pic {
+	float: left;
+	width: 25%;
+	height: 300px;
+	padding: 10px;
+	background: #636161;
+}
+
+
 
 	#section {
 		float: left;
