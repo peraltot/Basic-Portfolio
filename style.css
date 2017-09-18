@@ -56,16 +56,17 @@ p {
 
 #col-me {
 		float: left;
-		width: 40%;
-		height: 200px;
-		margin-bottom: 10px;
+		width: 50%;
+		height: 300px;
+		padding: 10px;
 		background: #636161;
 	}
 
 	#col-right {
 			float: right;
-			width: 40%;
-			margin-bottom: 10px;
+			width: 50%;
+			height: 300px;
+			padding: 10px;
 			background: #636161;
 	}
 
