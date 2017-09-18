@@ -26,20 +26,12 @@
 	font-family: Arial;
 	font-size: 18px;
 }
-
-h1 {
-	color: white;
-	text-decoration: underline;
+p {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #777777;
+	word-wrap: normal;
 	}
-	h2, h3, p {
-	color: yellow;
-	}
-	p, li {
-	font-size: 24px;
-	font-family: cursive;
-	}
-
-
 
 #funText {
 	color: black;
@@ -74,7 +66,7 @@ h1 {
 			margin-bottom: 10px;
 			background: #636161;
 	}
-	
+
 	#section {
 		float: left;
 		width: 58%;
