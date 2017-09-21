@@ -1,3 +1,21 @@
+footer {
+	clear: both;
+	padding: 20px;
+	margin-top: 0px;
+	color: #D8D4D4;
+	background: #838181;
+	text-align: center;
+  }
+
+  #line {
+	clear: both;
+	margin-top: 1px;
+	color: #0928D8;
+	text-align: center;
+    width: 100%;
+    height: 5px;
+	background: #0928D8;
+}
 
 	
 	ul {
@@ -72,6 +90,8 @@ p {
 	}
 
 	#col-right-contact {
+		text-align: left;
+		font-family: Arial;
 		float: right;
 		width: 30%;
 		height: 50px;
@@ -79,15 +99,19 @@ p {
 }
 	
 #col-pic {
-	float: clear: left;
+	float: left;
 	width: 18%;
-	height: 300px;
+	height: 200px;
 	padding: 10px;
 	margin-top: 0;
 	background: #636161;
 }
 
-
+{
+	box-sizing: :content;
+	text-align: left: ;
+	font-family: Arial;
+  }
 
 	#section {
 		float: left;
@@ -97,13 +121,7 @@ p {
 		background: #D8D4D4;
 	  }
 
-	  footer {
-		clear: both;
-		padding: 20px;
-		margin-top: 20px;
-		color: #666666;
-		background: #D8D4D4;	
-	  }
+
 
 	  #my_page {
 		width: 90%;
