@@ -8,9 +8,14 @@ footer {
 }
 
 body {
-	clear: both;
+	/* clear: both; */
 	height: 100%;
-	margin-top: 10px;
+	margin-top: 5%;
+	margin-right:15%;
+	margin-bottom: 5%;
+	margin-left:15%;
+	/* padding: 10%; */
+	/* margin-top: 10px; */
 	background: rgba(131, 129, 129, 0.18);
 }
 
@@ -35,7 +40,7 @@ body {
 }
 
 #line_box {
-	clear: both;
+	/* clear: both; */
 	/* margin-top: 1px; */
 	margin-left: 20%;
 	margin-right: 30%;
@@ -56,7 +61,7 @@ ul {
 	float: right;
 	text-align: center;
 	font-family: times;
-	font-size: 22px;
+	font-size: 20px;
 	color: #4aaaa5;
 }
 
@@ -77,6 +82,7 @@ l {
 	font-family: times;
 	font-size: 22px;
 	color: #E5E9E9;
+	font-weight: bolder;
 }
 
 r {
@@ -84,27 +90,20 @@ r {
 	margin-right: 5%;
 	margin-top: 1%;
 	list-style-type: none;
-	text-align: middle;
+	text-align: center;
 	font-family: times;
 	font-size: 24px;
 	color: #4aaaa5;
 }
 
-right {
-	/* float: middle; */
-	clear: both;
-	list-style-type: none;
-	margin-right: 20px;
-	margin-left: 20px;
-	margin-top: 20px;
-}
-
 li a {
 	display: inline-block;
 	color: #4aaaa5;
-	text-align: right;
+	font-family: times;
+	font-size: 24px;
+	text-align: center;
 	padding: 1px 1px;
-	text-decoration: none;
+	/* text-decoration: none; */
 	margin-bottom: 5px;
 }
 
@@ -120,14 +119,6 @@ p {
 	width: 40%;
 	height: 200px;
 	padding: 12px;
-}
-
-#col-right {
-	float: clear;
-	width: 50px;
-	height: 50px;
-	padding: 5px;
-	background: #636161;
 }
 
 #col-right-contact {
@@ -155,13 +146,6 @@ p {
 	padding: 10px;
 }
 
-#my_page {
-	width: 90%;
-	height: 90%;
-	background: #A5A4A4;
-	padding: 20px;
-	background: #A5A4A4;
-}
 
 #boxes {
 	background: #ffffff;
@@ -169,25 +153,12 @@ p {
 	box-sizing: border-box;
 	border-style: #cccccc;
 	margin-left: 20%;
-	margin-right: 40%;
+	/* margin-right: 40%; */
+	width: 40%;
 	text-align: left;
 	font-family: times;
 	font-size: 24px;
 	color: #4aaaa5;
-}
-
-#boxes_right {
-	background: #ffffff;
-	padding: 20px;
-	box-sizing: border-box;
-	border-style: #cccccc;
-	margin-left: 60%;
-	margin-right: 10%;
-	text-align: left;
-	font-family: times;
-	font-size: 24px;
-	color: #4aaaa5;
-	float: left;
 }
 
 #my_contact {
@@ -199,12 +170,20 @@ p {
 
 #mess {
 	height: 173px;
-	width: 440px;
+	/* width: 520px; */
+	width: 120%;
+	font-family: Arial;
+	color: #777777;
+	font-size: 16px;
 }
 
 #mess_2 {
 	height: 20px;
-	width: 440px;
+	/* width: 520px; */
+	width: 120%;
+	font-family: Arial;
+	color: #777777;
+	font-size: 16px;
 }
 
 form {
